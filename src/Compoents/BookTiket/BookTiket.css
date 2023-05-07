@@ -1,0 +1,48 @@
+.form-card {
+  height: 60vh;
+  width: 50vw;
+  display: block;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid rgb(178, 209, 250);
+  background-color: rgba(206, 218, 245, 0.548);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.form-card input {
+  background-color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  /* Styles for laptops */
+  .form-card {
+    width: 70vw;
+    height: 70vh;
+    padding: 0.6 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets */
+  h2 {
+    font-size: 1.5rem;
+  }
+  .form-card {
+    width: 70vw;
+    height: 50vh;
+    padding: 0.6 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  h2 {
+    font-size: 1.5rem;
+  }
+  .form-card {
+    width: 80vw;
+    height: 50vh;
+    padding: 0.6 !important;
+    margin: 0 !important;
+  }
+}
